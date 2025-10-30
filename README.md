@@ -2,12 +2,6 @@
 
 Fine-tune Qwen2.5-Coder-0.5B on the OpenCoder SFT dataset, test locally (Ollama), and publish to Hugging Face.
 
-## Training Status
-
-Place your training status screenshot at the repository root as `image.png` and it will show here:
-
-![Training status screenshot](image.png)
-
 ## Quickstart (Windows PowerShell)
 
 1) Create venv and install dependencies
@@ -88,6 +82,10 @@ python -m src.export_to_ollama `
 ollama create my-qwen-coder-ft -f Modelfile
 ollama run my-qwen-coder-ft
 ```
+## Training Status
+
+![Training status screenshot](image.png)
+
 
 ## Notes
 
